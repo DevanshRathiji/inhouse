@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.output {
+    display: block;
+}
+
+
+input[type="file"]{
+    display: none;
+}
+
+button, label{
+    border: none;
+    background-color: indigo;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin: 1rem;
+    
+}
+
+button {
+    padding: 0.6rem 3.3rem;
+}
+
+textarea {
+    border-radius: 0.3rem;
+    background-color: rgb(231, 80, 115);
+    border: none;
+    color: white;
+    padding: 1rem;
+}
+
+textarea::placeholder{
+    color: white;
+}
